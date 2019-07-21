@@ -1,0 +1,15 @@
+const firebase = require('firebase')
+
+var firebaseConfig = {
+  apiKey: "AIzaSyC8uPyEuIU1nrH5aDHip5G0wj8nVCqXDWM",
+  authDomain: "fir-auth-demo-ba732.firebaseapp.com",
+  databaseURL: "https://fir-auth-demo-ba732.firebaseio.com",
+  projectId: "fir-auth-demo-ba732",
+  storageBucket: "",
+  messagingSenderId: "399643308696",
+  appId: "1:399643308696:web:7a416520512a4bc3"
+};
+
+firebase.initializeApp(firebaseConfig);
+
+export default firebase.auth()
