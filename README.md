@@ -1,5 +1,8 @@
-# firebase-auth-example with Vue & Vuex
+# Firebase-auth-example with Vue & Vuex
 a simple app demonstrating how to integrate firebase authentication with Vue.js and Vuex
+
+## Demo
+https://fir-auth-demo-ba732.firebaseapp.com/
 
 ## Installation
 - clone this repo to your computer
